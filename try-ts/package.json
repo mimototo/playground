@@ -1,0 +1,16 @@
+{
+  "name": "try-ts",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts",
+    "build": "bun x tsc",
+    "dev": "bun run index.ts --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
